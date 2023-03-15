@@ -70,3 +70,5 @@
 # 6. create a home.html file and add content blocks in both html files
 
 # 7. repeate the linking steps for the new html file
+
+# 8. inside the personal/templates/personal folder you can add a snippets folder with snippet html files. You can the include the snippet into the home.html file
