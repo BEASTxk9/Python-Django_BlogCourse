@@ -41,3 +41,7 @@
 # 12. run " python manage.py runserver " 
 <!--  http://127.0.0.1:8000/ <-This is the default link you will be given if it was ran successfully -->
 <!-- Once ran you will see a file called " db.sqlite3 " in the src folder-->
+
+<!-- create a txt file to view all modules/packages/ect.. that is installed in this virtualenv -->
+# 13. run " pip3 freeze > requirements.txt "
+<!-- run this code everytime you pip install something -->
