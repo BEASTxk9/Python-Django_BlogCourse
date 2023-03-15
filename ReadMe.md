@@ -5,7 +5,7 @@
 # What is virtualenv/virtual enviroment?
 # virtualenv is used to manage Python packages for different projects. Using virtualenv allows you to avoid installing Python packages globally which could break system tools or other projects. You can install virtualenv using pip.
 
-## STEPS :shushing_face:
+## INSTALLATION STEPS :shushing_face:
 <!-- (support link https://linuxhint.com/activate-virtualenv-windows/) -->
 <!-- INSTALLATIONS -->
 # 1. install python
@@ -45,3 +45,6 @@
 <!-- create a txt file to view all modules/packages/ect.. that is installed in this virtualenv -->
 # 13. run " pip3 freeze > requirements.txt "
 <!-- run this code everytime you pip install something -->
+
+<!-- only use this to  install everything in the requirements.txt file when you clone this project/deploy the project -->
+# 14. run " pip3 install -r requirements.txt "
