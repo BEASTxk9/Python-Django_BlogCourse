@@ -1,5 +1,7 @@
 ## Hi There :smiley:
 
+# This is a hard coded version of how you would create a python & django website with a step by step guide below.
+
 ## TIPS :dizzy_face:
 <!-- 1 -->
 # What is virtualenv/virtual enviroment?
@@ -54,5 +56,17 @@
 <!-- start app(make sure you are in the src folder) -->
 # 1. run " python manage.py startapp personal "
 <!-- after runing this you'll see a personal folder found in the src folder -->
-
 <!-- everytime you add an app you have to add it to the mysite folder/settings.py file inside of the installed apps function -->
+
+# 2. Create a folder called templates in src which is where you html files will be stored
+<!-- after this go to setting.py and under the templates funtion add " os.path.join(BASE_DIR, 'templates') " into the DIR:[] -->
+
+# 3. add html file found in templates to views.py found in the personal folder app
+
+# 4. then you would go to mysite folder found in the src folder and open urls.py to link the html file to the app
+
+# 5. inside the personal folder create a folder called templates and then inside templates create another folder called personal which is the app name
+
+# 6. create a home.html file and add content blocks in both html files
+
+# 7. repeate the linking steps for the new html file
