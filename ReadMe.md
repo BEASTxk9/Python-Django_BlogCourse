@@ -48,3 +48,11 @@
 
 <!-- only use this to  install everything in the requirements.txt file when you clone this project/deploy the project -->
 # 14. run " pip3 install -r requirements.txt "
+
+## CREATE WEBSITE STEPS :shushing_face:
+
+<!-- start app(make sure you are in the src folder) -->
+# 1. run " python manage.py startapp personal "
+<!-- after runing this you'll see a personal folder found in the src folder -->
+
+<!-- everytime you add an app you have to add it to the mysite folder/settings.py file inside of the installed apps function -->
